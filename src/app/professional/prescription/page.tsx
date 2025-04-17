@@ -39,7 +39,7 @@ const NutritionistDirectory = () => {
 
       <p>
         Finding a knowledgeable and supportive doctor is key to safely and effectively using GLP-1 medications like Ozempic, Wegovy, or Mounjaro.
-        Here's how to get started:
+        Here&apos;s how to get started:
       </p>
 
       <h4 style={{ color: '#1f618d', marginTop: '20px' }}>1. Start with Your Primary Care Physician (PCP)</h4>

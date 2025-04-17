@@ -38,7 +38,7 @@ import { usePathname } from "next/navigation";
 
 
 const navigation = [
-  { name: "Home", href: "#", icon: HomeIcon },
+  { name: "Home", href: "/", icon: HomeIcon },
   { name: "Community", href: "/community", icon: UsersIcon },
   {
     name: "GPL-1",
@@ -47,17 +47,17 @@ const navigation = [
     subMenu: [
       {
         name: "Medications",
-        href: "#",
+        href: "/glp1/medications",
         icon: ClipboardDocumentListIcon,
         mainMenu: false,
       },
       {
         name: "Side-Effect",
-        href: "#",
+        href: "/glp1/sideeffects",
         icon: DocumentDuplicateIcon,
         mainMenu: false,
       },
-      { name: "Future", href: "#", icon: ChartBarIcon, mainMenu: false },
+      { name: "Future", href: "/glp1/future", icon: ChartBarIcon, mainMenu: false },
     ],
   },
   {
@@ -65,13 +65,13 @@ const navigation = [
     href: "#",
     icon: ChatBubbleLeftRightIcon,
     subMenu: [
-      { name: "Nuitrition Support", href: "#", icon: Squares2X2Icon },
-      { name: "Meal Plan", href: "#", icon: Squares2X2Icon },
-      { name: "Mentall Health", href: "#", icon: HeartIcon },
-      { name: "Trainer", href: "#", icon: UserGroupIcon },
+      { name: "Nuitrition Support", href: "/professional/nutrition", icon: Squares2X2Icon },
+      { name: "Meal Plan", href: "/professional/meal-plan", icon: Squares2X2Icon },
+      { name: "Mental Health", href: "/professional/mental", icon: HeartIcon },
+      { name: "Trainer", href: "/professional/trainer", icon: UserGroupIcon },
       {
         name: "GPL-1 Medications",
-        href: "#",
+        href: "/professional/prescription",
         icon: ClipboardDocumentListIcon,
       },
     ],

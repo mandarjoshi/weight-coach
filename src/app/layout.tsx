@@ -88,7 +88,7 @@ const navigation = [
       },
     ],
   },
-  { name: "My Jounry", href: "#", icon: MapIcon },
+  { name: "My Journey", href: "#", icon: MapIcon },
 ];
 const userNavigation = [
   { name: "Your profile", href: "#" },

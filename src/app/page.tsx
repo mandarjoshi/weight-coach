@@ -3,7 +3,16 @@
 export default function Home() {
   return (
     <div>
-      <div><b>Welcome to Your GLP-1 Journey Hub</b></div>
+      <h2 style={{ fontSize:'24px', color: '#2e7d32' }}><b>What`&apos;s new?</b></h2>
+      <br></br>
+      <div>
+      <li>
+        <a style={{  color: 'blue' }} href={'https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically'} target="_blank">Lilly`&apos;s oral GLP-1, orforglipron, demonstrated statistically significant efficacy results and a safety profile consistent with injectable GLP-1 medicines in successful Phase 3 trial.</a>
+      </li>
+      </div>
+      <br></br>
+      <br></br>
+      <div style={{ fontSize:'24px', color: '#2e7d32' }}><b>Welcome to Your GLP-1 Journey Hub</b></div>
       <br></br>
       <div>This is more than just a website—it&apos;s a supportive space built for individuals exploring or using <b>GLP-1</b> medications. Whether you&apos;re just getting started or already on your journey, you&apos;re not alone here.</div>
       <br></br>

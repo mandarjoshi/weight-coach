@@ -1,32 +1,26 @@
 
+import styles from './mystyles.module.css';
 
 export default function Home() {
   return (
-    <div>
-      <h2 style={{ fontSize:'24px', color: '#2e7d32' }}><b>What`&apos;s new?</b></h2>
-      <br></br>
-      <div>
-      <li>
-        <a style={{  color: 'blue' }} href={'https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically'} target="_blank">Lilly`&apos;s oral GLP-1, orforglipron, demonstrated statistically significant efficacy results and a safety profile consistent with injectable GLP-1 medicines in successful Phase 3 trial.</a>
-      </li>
+    <div className={styles.page_professional_page_layout}>
+      <div className={styles.page_professional_page_header}>Welcome to Your GLP-1 Journey Hub</div>
+      <div className={styles.page_professional_card}>
+        <h2 className={styles.page_professional_card_header}>What&apos;s new?</h2>
+        <li>
+          <a style={{  color: 'blue' }} href={'https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically'} target="_blank">Lilly&apos;s oral GLP-1, orforglipron, demonstrated statistically significant efficacy results...   read more</a>
+        </li>
       </div>
-      <br></br>
-      <br></br>
-      <div style={{ fontSize:'24px', color: '#2e7d32' }}><b>Welcome to Your GLP-1 Journey Hub</b></div>
-      <br></br>
-      <div>This is more than just a website—it&apos;s a supportive space built for individuals exploring or using <b>GLP-1</b> medications. Whether you&apos;re just getting started or already on your journey, you&apos;re not alone here.</div>
-      <br></br>
-      <div>Connect with others who share your experiences. Our <b>Community</b> section is a place to ask questions, share answers, and offer support. You can browse real conversations, leave comments, and like posts that resonate with you. It&apos;s an open, respectful environment where members uplift and inform one another.</div>
-      <br></br>
-      <div>Alongside community wisdom, we offer <b>trusted information</b> about GLP-1 drugs from medically reviewed, reliable sources. Stay up to date with the latest research, safety guidelines, and tips—all in one place.</div>
-      <br></br>
-      <div>Need expert advice? We&apos;ve made it simple to connect with <b>healthcare professionals</b> who specialize in GLP-1 treatments. From virtual consultations to personalized guidance, help is just a few clicks away.</div>
-      <br></br>
-      <div>You also have your own private space on the site to <b>manage your journey</b>. Track your goals, record progress, and log symptoms or side effects. Your dashboard is a personal health companion, helping you stay informed, organized, and motivated.</div>
-      <br></br>
-      <div>Our platform combines <b>community connection, expert support, and personal tools</b> to empower you every step of the way. We believe in real talk, real support, and real results—without judgment.</div>
-      <br></br>
-      <div>Join a community that&apos;s here to listen, support, and grow with you. <b>Your GLP-1 journey starts here.</b></div>
+      <div className={styles.page_professional_card}>
+        <h2 className={styles.page_professional_card_header}>About</h2>
+        <p className={styles.paragraph}>This is more than just a website—it&apos;s a supportive space built for individuals exploring or using <b>GLP-1</b> medications. Whether you&apos;re just getting started or already on your journey, you&apos;re not alone here.</p>
+        <p className={styles.paragraph}>Connect with others who share your experiences. Our <b>Community</b> section is a place to ask questions, share answers, and offer support. You can browse real conversations, leave comments, and like posts that resonate with you. It&apos;s an open, respectful environment where members uplift and inform one another.</p>
+        <p className={styles.paragraph}>Alongside community wisdom, we offer <b>trusted information</b> about GLP-1 drugs from medically reviewed, reliable sources. Stay up to date with the latest research, safety guidelines, and tips—all in one place.</p>
+        <p className={styles.paragraph}>Need expert advice? We&apos;ve made it simple to connect with <b>healthcare professionals</b> who specialize in GLP-1 treatments. From virtual consultations to personalized guidance, help is just a few clicks away.</p>
+        <p className={styles.paragraph}>You also have your own private space on the site to <b>manage your journey</b>. Track your goals, record progress, and log symptoms or side effects. Your dashboard is a personal health companion, helping you stay informed, organized, and motivated.</p>
+        <p className={styles.paragraph}>Our platform combines <b>community connection, expert support, and personal tools</b> to empower you every step of the way. We believe in real talk, real support, and real results—without judgment.</p>
+        <p className={styles.paragraph}>Join a community that&apos;s here to listen, support, and grow with you. <b>Your GLP-1 journey starts here.</b></p>
+      </div>
     </div>
   );
 }

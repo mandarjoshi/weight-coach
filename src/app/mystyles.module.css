@@ -1,0 +1,68 @@
+
+.page_professional_card {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f9fefb;
+    border: 1px solid #d5e8d4;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size:larger ;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: left;
+  }
+
+  .page_professional_card_header {
+    font-size:x-large ;
+    text-align: left;
+    color: #2e7d32;
+    margin-bottom: 20px;
+  }
+
+  .page_professional_page_header {
+    font-size:xx-large ;
+    text-align: center;
+    color: #105b12;
+    margin-bottom: 30px;
+  }
+
+  .page_professional_card_header_center {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size:x-large ;
+    text-align: center;
+    color: #2e7d32;
+  }
+
+  .page_professional_page_layout {
+    max-width:1800px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .paragraph {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .button_get_started {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .button_div { 
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px; 
+  }

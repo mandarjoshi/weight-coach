@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import styles from '../../mystyles.module.css';
 
 const NutritionistDirectory = () => {
   // Sample data - replace with real API data
@@ -20,13 +21,14 @@ const NutritionistDirectory = () => {
   );
 
   return (
-    <div style={{ maxWidth: '1000px', margin: '40px auto', fontFamily: 'Arial, sans-serif' }}>
-      <div>A nutritionist plays a key role in supporting patients using GLP-1 drugs by helping them build sustainable, balanced eating habits that complement the medication&apos;s effects. While GLP-1 drugs reduce appetite and support weight loss, proper nutrition ensures patients still get essential nutrients. Nutritionists also help manage side effects like nausea or gastrointestinal discomfort through tailored meal planning. They provide education on portion control, mindful eating, and long-term behavior change. Ultimately, partnering with a nutritionist can maximize the benefits of GLP-1 therapy and support long-term metabolic health.</div>
-      <br></br>
-      <h1 style={{ textAlign: 'center', color: '#2c3e50' }}>
+    <div className={styles.page_professional_page_layout}>
+      <div className={styles.page_professional_page_header}>Nutrition Support</div>
+      <div className={styles.page_professional_card}>
+        <h2 className={styles.page_professional_card_header}>Why nutritionist is important?</h2>
+        <p>A nutritionist plays a key role in supporting patients using GLP-1 drugs by helping them build sustainable, balanced eating habits that complement the medication&apos;s effects. While GLP-1 drugs reduce appetite and support weight loss, proper nutrition ensures patients still get essential nutrients. Nutritionists also help manage side effects like nausea or gastrointestinal discomfort through tailored meal planning. They provide education on portion control, mindful eating, and long-term behavior change. Ultimately, partnering with a nutritionist can maximize the benefits of GLP-1 therapy and support long-term metabolic health.</p></div>
+      <h1 className={styles.page_professional_card_header_center}>
         Find a Nutritionist Near You
       </h1>
-      <br></br>
       <input
         type="text"
         placeholder="Search by name or location..."

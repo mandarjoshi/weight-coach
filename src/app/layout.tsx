@@ -46,13 +46,19 @@ const navigation = [
     icon: FolderIcon,
     subMenu: [
       {
+        name: "History",
+        href: "/glp1/history",
+        icon: ClipboardDocumentListIcon,
+        mainMenu: false,
+      },
+      {
         name: "Medications",
         href: "/glp1/medications",
         icon: ClipboardDocumentListIcon,
         mainMenu: false,
       },
       {
-        name: "Side-Effect",
+        name: "Side-Effects",
         href: "/glp1/sideeffects",
         icon: DocumentDuplicateIcon,
         mainMenu: false,
@@ -66,14 +72,15 @@ const navigation = [
     icon: ChatBubbleLeftRightIcon,
     subMenu: [
       { name: "Nuitrition Support", href: "/professional/nutrition", icon: Squares2X2Icon },
-      { name: "Meal Plan", href: "/professional/meal-plan", icon: Squares2X2Icon },
+      { name: "Meal Plans", href: "/professional/meal-plan", icon: Squares2X2Icon },
       { name: "Mental Health", href: "/professional/mental", icon: HeartIcon },
-      { name: "Trainer", href: "/professional/trainer", icon: UserGroupIcon },
+      { name: "Exercise", href: "/professional/trainer", icon: UserGroupIcon },
       {
         name: "GPL-1 Medications",
         href: "/professional/prescription",
         icon: ClipboardDocumentListIcon,
       },
+      { name: "Insurance", href: "/professional/insurance", icon: UserGroupIcon },
     ],
   },
   {

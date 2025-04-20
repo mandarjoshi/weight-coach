@@ -29,7 +29,7 @@ const initialPosts = [
   },
 ];
 
-const allTags = ["All", "side-effects", "insurance", "meal", "exercise"];
+const allTags = ["All", "side-effects", "insurance", "meal", "exercise", "Byetta, Bydureon (exenatide)", "Trulicity (dulaglutide)", "Victoza, Saxenda, Xultophy (liraglutide)","Ozempic, Rybelsus, Wegovy (semaglutide)","Mounjaro, Zepbound (tirzepatide)"];
 
 export default function LinkedInFeedWithTagSidebar() {
   const [posts, setPosts] = useState(initialPosts);
@@ -84,7 +84,7 @@ export default function LinkedInFeedWithTagSidebar() {
   return (
     <div className="flex max-w-6xl mx-auto px-4 mt-8 gap-6">
       {/* Sidebar */}
-      <div className="w-64 bg-white rounded-2xl shadow-md p-4 h-fit">
+      <div className="w-84 bg-white rounded-2xl shadow-md p-4 h-fit">
         <h2 className="text-lg font-semibold mb-4">Filter & Sort</h2>
 
         {/* Tags */}

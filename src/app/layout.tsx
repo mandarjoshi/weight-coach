@@ -29,6 +29,7 @@ import {
   ArrowsRightLeftIcon,
   SparklesIcon,
   MapIcon,
+  ShoppingBagIcon,
 } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
@@ -83,6 +84,7 @@ const navigation = [
       { name: "Insurance", href: "/professional/insurance", icon: UserGroupIcon },
     ],
   },
+  { name: "Shop", href: "/shop", icon: ShoppingBagIcon },
   {
     name: "Alternatives",
     href: "#",

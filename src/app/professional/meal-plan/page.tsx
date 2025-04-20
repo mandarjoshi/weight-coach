@@ -25,18 +25,7 @@ const OptaviaGLP1Plan = () => {
           healthy, sustainable eating habits.
         </p>
         <div className={styles.button_div}>
-          <button
-            style={{
-              backgroundColor: '#4caf50',
-              color: '#fff',
-              padding: '12px 24px',
-              fontSize: '16px',
-              border: 'none',
-              borderRadius: '6px',
-              cursor: 'pointer',
-              transition: 'background-color 0.3s ease'
-            }}
-          >
+          <button className={styles.button_get_started}>
             Get Started
           </button>
         </div>
@@ -53,18 +42,7 @@ const OptaviaGLP1Plan = () => {
           Meals arrive fresh and ready to heat, requiring minimal preparation—just a few minutes in the microwave or oven. Factor75&apos;s service is available in 48 states, offering flexibility to skip weeks or adjust meal quantities as needed. ​
         </p>
         <div className={styles.button_div}>
-          <button
-            style={{
-              backgroundColor: '#4caf50',
-              color: '#fff',
-              padding: '12px 24px',
-              fontSize: '16px',
-              border: 'none',
-              borderRadius: '6px',
-              cursor: 'pointer',
-              transition: 'background-color 0.3s ease'
-            }}
-          >
+          <button className={styles.button_get_started}>
             Get Started
           </button>
         </div>

@@ -29,7 +29,7 @@ const initialPosts = [
   },
 ];
 
-const allTags = ["All", "side-effects", "insurance", "meal", "exercise", "Byetta, Bydureon (exenatide)", "Trulicity (dulaglutide)", "Victoza, Saxenda, Xultophy (liraglutide)","Ozempic, Rybelsus, Wegovy (semaglutide)","Mounjaro, Zepbound (tirzepatide)"];
+const allTags = ["All", "whats new?", "Nutrition", "side-effects", "insurance", "meal", "exercise", "Byetta, Bydureon (exenatide)", "Trulicity (dulaglutide)", "Victoza, Saxenda, Xultophy (liraglutide)","Ozempic, Rybelsus, Wegovy (semaglutide)","Mounjaro, Zepbound (tirzepatide)", "Alternatives"];
 
 export default function LinkedInFeedWithTagSidebar() {
   const [posts, setPosts] = useState(initialPosts);

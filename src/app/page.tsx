@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.page_professional_card}>
         <h2 className={styles.page_professional_card_header}>What&apos;s new?</h2>
         <li>
-          <a style={{  color: 'blue' }} href={'https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically'} target="_blank">Lilly&apos;s oral GLP-1, orforglipron, demonstrated statistically significant efficacy results...   read more</a>
+          <a style={{  color: 'blue' }} href={'https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically'} target="_blank">Lilly&apos;s Oral GLP-1 Orforglipron Shows Strong Weight Loss Results...   read more</a>
         </li>
       </div>
       <div className={styles.page_professional_card}>

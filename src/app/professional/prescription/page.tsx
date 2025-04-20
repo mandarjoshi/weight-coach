@@ -62,8 +62,7 @@ const NutritionistDirectory = () => {
           💡 Want help finding a local doctor? Consider asking your insurance provider for in-network specialists or using a location-based health platform.
         </p>
       </div>
-
-      <div style={{ maxWidth: '800px', margin: '40px auto', fontFamily: 'Arial, sans-serif' }}>
+      <div>
         <h1 style={{ textAlign: 'center', color: '#2c3e50' }}>
           Find a Doctor Near You
         </h1>

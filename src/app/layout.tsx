@@ -30,6 +30,7 @@ import {
   SparklesIcon,
   MapIcon,
   ShoppingBagIcon,
+  CurrencyDollarIcon,
 } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
@@ -47,8 +48,8 @@ const navigation = [
     icon: FolderIcon,
     subMenu: [
       {
-        name: "History",
-        href: "/glp1/history",
+        name: "About",
+        href: "/glp1/about",
         icon: ClipboardDocumentListIcon,
         mainMenu: false,
       },
@@ -85,6 +86,7 @@ const navigation = [
     ],
   },
   { name: "Shop", href: "/shop", icon: ShoppingBagIcon },
+  { name: "Serve and Earn", href: "/earn", icon: CurrencyDollarIcon },
   {
     name: "Alternatives",
     href: "#",

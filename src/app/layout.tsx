@@ -37,6 +37,7 @@ import {
   MagnifyingGlassIcon,
 } from "@heroicons/react/20/solid";
 import { usePathname } from "next/navigation";
+import Script from "next/script";
 
 
 const navigation = [
@@ -120,6 +121,11 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <title>Hello Title</title>
+        <Script id="my-script" src="https://saral-platform-public.s3.us-east-1.amazonaws.com/saralchat.js?response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCXVzLWVhc3QtMSJHMEUCIQC5redgH%2FW9Vjg5mfb6%2FcJWK%2BD1xaBV%2F51iHZlNqa2vkQIgA1598sbdruf13IbPniBvr17vdkE6GYGx6DEOQ2VFTs0qvAQItP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwzNzYxMjk4ODEzODUiDC9BVEnaOh%2FCsm62BSqQBKm3dsFwhA9OrShvk2eBAxsYsWo09SHwkja7i3rGLasQ%2B9jGNVbo20LcFzaXGg6UmWekBDp6VaAEXxph9mpheW2G5e2qPZdPLA54rsXUpo%2FYSVeP8E4PNipbnmX7S%2F9%2BzHhN81eX2v7umWq4P1%2F88I765A5cSO6WVppGQ%2BXcR13zHQ3ZNwrecnv%2FTuFlUM4DbcBzgKrysxz1cG9TfPSUkWvvieu69wQr92nPvoCbBfe%2BDjXo8FtxP4zUOARUhiZdSgHG8qStwukvJiKG%2BXIVgILjg2WdjumrXntA%2BRCRBk6EfikR4mytGaZcTIzgcrvN6vv0h0Va9aF9HmTh%2FZFEqHoVrS2HFCsEduFXM4j8YSZEwBPxZMhAJBaoTzccguE9AjElVwbRSM9vFzSnX0qnCj0x%2F6tQIBVrqmH7rtun62qPrcam4CncdAieZO%2BSDML7djMyutqR9W6d5%2BFzGxd17qyThNeHmI%2BjfsTNaBcdCk8IqQ%2BvtdXgagonHi00rF5DMz61jMV%2BGW6CQJFfyqVB2Pz6JHh1YfPMmd2Bm9%2BWh166uoebGHbZyb9TBAJUzHjJAzdJxAkhCfvf4KZbgc4JxXi7Snjdnoslno7vueRq9c%2FPymASs126WDtAyvyFCOnPL1xgeH2zTuEYitKWZCCxAe92t6q4va%2Fdbwhdg3iQ6ifiJLCHZRZ7r548KfY3vg8GDjDk9v7ABjrFAquMWu1J6WElzX%2B%2BZPDenk61%2Bj3SFBGQk9vkKGzk8XrVIxqDaCboMd6gexqeE3cQSr8wcG9sTPfW%2BjWJlbkYFACpPGilBl3cXQILLsM%2FLUoMSn0scI%2FGOsemoznpZ2wY3R56yIvWQsbIOCsQhuMcbnzNwBPsixVAbn4zPgdyNXhYEYElEamrBIDneONA1bq%2FzTb2T9RdJmyK4HwXyq7ZSFxsNrf2KE57f0UdVT9htkaLhpbI8QYX%2BEIz5ygeKCmPNwFCKBnnSRh2gm5ZdxN3CEDhKe%2BJKQTjeXvsKXRm6yEdNh%2Fht08%2FKa7yXzfpJZBe8cbKYch9viqrE72iISvAxkUA4URO7JuYBTdrngFmjaM65hOnpax4jpDa5G%2BvzoYsZ5Xut0HvsSV32TTfJUcwJxiq0kUekuk16u6x9%2FTww88t03o%2B6bk%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVPEYWQUU75YQDV63%2F20250511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250511T031453Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d15b3a4289fe6fad58d00dfcff8f78f5377b2fe1b688ba0c078a76d98a18e904">
+        </Script>
+      </head>
       <body>
         <div>
           <Dialog
